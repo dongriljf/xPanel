@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/github/license/Anankke/SSPanel-Uim?style=flat-square)](https://github.com/xray-v2ray-ss/xPanel/blob/master/LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/anankke/sspanel-uim?style=flat-square&color=328657)
 
-演示站点(暂缺) | [使用文档](https://wiki.sspanel.host) | [更新日志](https://github.com/xray-v2ray-ss/xPanel/releases) | [配套SS/SSR后端](https://github.com/Anankke/shadowsocks-mod) | [Telegram 频道](https://t.me/xraypanel) | [Telegram 水群](https://t.me/xraypanel) | [API 文档](https://marcosteam.gitbook.io/sspanel-api/)
+演示站点(暂缺) | [使用文档](https://wiki.sspanel.host) | [更新日志](https://github.com/xray-v2ray-ss/xPanel/releases) | [配套SS/SSR后端](https://github.com/Anankke/shadowsocks-mod) | [Telegram 频道](https://t.me/XrayPanel) | [Telegram 水群](https://t.me/xPanelChat) | [API 文档](https://marcosteam.gitbook.io/sspanel-api/)
 
 ## 简介
 
