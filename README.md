@@ -15,12 +15,12 @@
 
 xPanel 是一款专为 Xray / Vless / xtls / V2Ray / vmess / Trojan / Shadowsocks(R) 设计的多用户管理面板，基于SSPanel-Uim开发。
 
-## 给sspanel增加增加 Vless / xtls 支持
-请点此链接：[给sspanel增加 Vless / xtls 支持](https://github.com/xray-v2ray-ss/xPanel/commit/d874b56c758c931bc68f5867117c0f4c79e50ae2) ，查看此提交的代码变更记录，根据此记录修改你的sspanl即可。
-
 节点地址写法，按照 [XrayR](https://github.com/XrayR-project/XrayR) 的推荐格式写。如果xtls有流控flow，则在最后增加: 
 `|flow=flow-vlaue`  ,比如 ：
 `xpanel.com;443;2;tcp;xtls;server=xpanel.com|host=xpanel.com|enable_vless=true|flow=xtls-rprx-direct` 
+
+## 给sspanel增加增加 Vless / xtls 支持
+请点此链接：[给sspanel增加 Vless / xtls 支持](https://github.com/xray-v2ray-ss/xPanel/commit/d874b56c758c931bc68f5867117c0f4c79e50ae2) ，查看此提交的代码变更记录，根据此记录修改你的sspanl即可。
 
 ## 特性
 
