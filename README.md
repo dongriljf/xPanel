@@ -6,12 +6,12 @@
 
 <br/>
 
-[![License](https://img.shields.io/github/license/Anankke/SSPanel-Uim?style=flat-square)](https://github.com/xray-v2ray-ss/xPanel/blob/dev/LICENSE)
+[![License](https://img.shields.io/github/license/Anankke/SSPanel-Uim?style=flat-square)](https://github.com/xray-v2ray-ss/xPanel/blob/master/LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/anankke/sspanel-uim?style=flat-square&color=328657)
-[![Telegram Channel](https://img.shields.io/badge/news-t.me%2Fsspanel_uim-0d86d7?style=flat-square)](https://t.me/sspanel_uim)
-[![Telegram Chat](https://img.shields.io/badge/chat-t.me%2Fssunion-0d86d7?style=flat-square)](https://t.me/ssunion)
+[![Telegram Channel](https://img.shields.io/badge/news-t.me%2Fsspanel_uim-0d86d7?style=flat-square)](https://t.me/xraypanel)
+[![Telegram Chat](https://img.shields.io/badge/chat-t.me%2Fssunion-0d86d7?style=flat-square)](https://t.me/xraypanel)
 
-[演示站点](https://sspanel.host) | [使用文档](https://wiki.sspanel.host) | [更新日志](https://github.com/xray-v2ray-ss/xPanel/releases) | [配套SS/SSR后端](https://github.com/Anankke/shadowsocks-mod) | [Telegram 频道](https://t.me/sspanel_uim) | [Telegram 水群](https://t.me/ssunion) | [API 文档](https://marcosteam.gitbook.io/sspanel-api/)
+演示站点(暂缺) | [使用文档](https://wiki.sspanel.host) | [更新日志](https://github.com/xray-v2ray-ss/xPanel/releases) | [配套SS/SSR后端](https://github.com/Anankke/shadowsocks-mod) | [Telegram 频道](https://t.me/xraypanel) | [Telegram 水群](https://t.me/xraypanel) | [API 文档](https://marcosteam.gitbook.io/sspanel-api/)
 
 ## 简介
 
@@ -57,7 +57,7 @@ mukey ShirakamiFubuki
 
 ## 贡献
 
-[提出新想法 & 提交 Bug](https://github.com/xray-v2ray-ss/xPanel/issues/new) | [改善文档 & 投稿](https://github.com/sspanel-uim/Wiki) | [Fork & Pull Request](https://github.com/xray-v2ray-ss/xPanel/fork)
+[提出新想法 & 提交 Bug](https://github.com/xray-v2ray-ss/xPanel/issues/new) | [改善文档 & 投稿](https://github.com/xray-v2ray-ss/xPanel/Wiki) | [Fork & Pull Request](https://github.com/xray-v2ray-ss/xPanel/fork)
 
 xPanel 欢迎各种贡献，包括但不限于改进，新功能，文档和代码改进，问题和错误报告。
 
