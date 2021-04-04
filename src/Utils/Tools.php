@@ -527,6 +527,9 @@ class Tools
             } elseif ($item['net'] == 'tls') {
                 $item['tls'] = 'tls';
             }
+            elseif ($item['net'] == 'xtls') {
+                $item['tls'] = 'xtls';
+            }
         }
         if (count($server) >= 5) {
             if (in_array($item['net'], array('kcp', 'http', 'mkcp'))) {
@@ -535,6 +538,9 @@ class Tools
                 $item['net'] = 'ws';
             } elseif ($server[4] == 'tls') {
                 $item['tls'] = 'tls';
+            }
+            elseif ($server[4] == 'xtls') {
+                $item['tls'] = 'xtls';
             }
         }
         if (count($server) >= 6 && $server[5] != '') {
@@ -559,6 +565,10 @@ class Tools
                 unset($item['inside_port']);
             }
         }
+        
+        $item['type'] = 'vmess';
+        if(isset($item['enable_vless']) && $item['enable_vless']=='true')$item['type']='vless';
+        
         return $item;
     }
 

@@ -53,6 +53,8 @@ class AppURI
 
     public static function getV2RayNURI(array $item)
     {
+    		//error_log(print_r($item,true));
+    		if(isset($item['enable_vless']) && $item['enable_vless']=='true')$item['type']='vless';
         $return = null;
         switch ($item['type']) {
             case 'vmess':
@@ -72,6 +74,29 @@ class AppURI
                 $return = ('vmess://' . base64_encode(
                     json_encode($node, 320)
                 ));
+                break;
+            case 'vless':
+		            $return = "vless://" . $item['id'] ."@".$item['add'].":".$item['port']."?encryption=none";
+		            $return.="&type=".$item['net'];		
+		            $return.="&security=".$item['tls'];
+		            
+		            if($item['host']!="")$return=$return."&host=". urlencode($item['host']);
+		            if($item['host']!="")$return=$return."&sni=".$item['host'];
+		            
+		            if(isset($item['flow']) && $item['flow']!="")$return=$return."&flow=".$item['flow'];
+                if($item['path']!="")$return=$return."&path=".urlencode($item['path']);
+
+                if($item['headerType']!="")$return=$return."&headerType=".$item['headerType'];
+                
+/*		            switch ($item['net']){
+		                case "ws":
+		                case "h2":
+		                case "kcp":
+		                case "quic":
+		                case "tcp":
+		            }*/
+		
+		            if ($item['remark']!="")$return=$return."#". urlencode($item['remark']);
                 break;
         }
         return $return;
