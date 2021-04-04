@@ -37,4 +37,5 @@ public/.user.ini
 
 resources/views/material/analytics.tpl
 gitupdate.*
+*.bak
 test/tpl_files.txt

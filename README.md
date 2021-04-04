@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/github/license/Anankke/SSPanel-Uim?style=flat-square)](https://github.com/xray-v2ray-ss/xPanel/blob/master/LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/anankke/sspanel-uim?style=flat-square&color=328657)
 
-演示站点(暂缺) | [使用文档](https://wiki.sspanel.host) | [更新日志](https://github.com/xray-v2ray-ss/xPanel/releases) | [配套SS/SSR后端](https://github.com/Anankke/shadowsocks-mod) | [Telegram 频道](https://t.me/XrayPanel) | [Telegram 水群](https://t.me/xPanelChat) | [API 文档](https://marcosteam.gitbook.io/sspanel-api/)
+演示站点(暂缺) | [使用文档](https://wiki.sspanel.host) | [更新日志](https://github.com/xray-v2ray-ss/xPanel/releases) | [配套SS/SSR后端](https://github.com/Anankke/shadowsocks-mod) | [Telegram 频道](https://t.me/XrayPanel) | [Telegram 交流群](https://t.me/xPanelChat) | [API 文档](https://marcosteam.gitbook.io/sspanel-api/)
 
 ## 简介
 
@@ -154,6 +154,10 @@ xPanel 离不开所有 [贡献代码](https://github.com/xray-v2ray-ss/xPanel/gr
 ## 捐赠
 
 您对我们的帮助将是支持我们做下去的动力。您可以直接进行捐赠，也可以在购买部分产品或向他人推荐产品时从我们的返利链接购买。
+
+#### xray-v2ray-ss
+
+- xray-v2ray-ss 创建xPanel，增加支持vless/xtls支持。
 
 #### Anankke
 
