@@ -21,6 +21,8 @@ xPanel 是一款专为 Xray / Vless / xtls / V2Ray / vmess / Trojan / Shadowsock
 
 完全兼容SSPanel-Uim ，目前仅在 SSPanel-Uim  Mar 31, 2021 dev分支基础上增加了vless/xtls支持。
 
+支持xtls、vless的免费开源后端推荐：[Air-Universe](https://github.com/crossfw/Air-Universe/) 、[XrayR](https://github.com/XrayR-project/XrayR)
+
 ## 给sspanel增加增加 Vless / xtls 支持
 请点此链接：[给sspanel增加 Vless / xtls 支持](https://github.com/xray-v2ray-ss/xPanel/commit/d874b56c758c931bc68f5867117c0f4c79e50ae2) ，查看此提交的代码变更记录，根据此记录修改你的sspanl即可。
 
