@@ -147,6 +147,7 @@ class NodeController extends UserController
                         'UUID：'    => $user->uuid,
                         'AlterID：' => $server['aid'],
                         '传输协议：' => $server['net'],
+						'节点类型：' => $server['type'],
                     ],
                 ];
                 if ($server['net'] == 'ws') {

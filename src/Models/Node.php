@@ -376,7 +376,6 @@ class Node extends Model
     public function getV2RayItem(User $user, int $mu_port = 0, int $is_ss = 0, bool $emoji = false): array
     {
         $item           = Tools::v2Array($this->server);
-        $item['type']   = 'vmess';
         $item['remark'] = ($emoji ? Tools::addEmoji($this->name) : $this->name);
         $item['id']     = $user->uuid;
         $item['class']  = $this->node_class;
