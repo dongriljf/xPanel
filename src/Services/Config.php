@@ -51,18 +51,23 @@ class Config
             'admin_contact2'          => $_ENV['admin_contact2'],
             'admin_contact3'          => $_ENV['admin_contact3'],
             'register_mode'           => self::getconfig('Register.string.Mode'),
+            'enable_reg_im'           => $_ENV['enable_reg_im'],
             'enable_flag'             => $_ENV['enable_flag'],
             'enable_kill'             => $_ENV['enable_kill'],
             'enable_change_email'     => $_ENV['enable_change_email'],
             'custom_invite_price'     => $_ENV['custom_invite_price'],
-            'captcha_provider'        => $_ENV['captcha_provider'],
             'enable_email_verify'     => self::getconfig('Register.bool.Enable_email_verify'),
+
+            'captcha_provider'        => $_ENV['captcha_provider'],
+            'enable_reg_captcha'      => $_ENV['enable_reg_captcha'],
+            'enable_login_captcha'    => $_ENV['enable_login_captcha'],
+            'enable_checkin_captcha'  => $_ENV['enable_checkin_captcha'],
 
             'enable_telegram'         => $_ENV['enable_telegram'],
             'telegram_bot'            => $_ENV['telegram_bot'],
             'use_new_telegram_bot'    => $_ENV['use_new_telegram_bot'],
 
-            'enable_telegram_login'            => $_ENV['enable_telegram_login'],
+            'enable_telegram_login'   => $_ENV['enable_telegram_login'],
 
             'subscribe_client'        => $_ENV['subscribe_client'],
             'subscribe_client_url'    => $_ENV['subscribe_client_url'],
@@ -77,16 +82,7 @@ class Config
             'auto_detect_ban_time'    => $_ENV['auto_detect_ban_time'],
             'auto_detect_ban'         => $_ENV['auto_detect_ban'],
 
-            'use_this_doc'            => $_ENV['use_this_doc'],
-            'documents_name'          => $_ENV['documents_name'],
-            'remote_documents'        => $_ENV['remote_documents'],
-            'documents_source'        => $_ENV['documents_source'],
-
             'userCenterClient'        => $_ENV['userCenterClient'],
-
-            'old_index_DESC'          => $_ENV['old_index_DESC'],
-
-            'sspanelAnalysis'         => $_ENV['sspanelAnalysis'],
 
             'sentry_dsn'              => !empty($_ENV['sentry_dsn']) ? $_ENV['sentry_dsn'] : null,
         ];
@@ -104,19 +100,6 @@ class Config
             'charset'       => $_ENV['db_charset'],
             'collation'     => $_ENV['db_collation'],
             'prefix'        => $_ENV['db_prefix'],
-        ];
-    }
-
-    public static function getRadiusDbConfig()
-    {
-        return [
-            'driver'    => $_ENV['db_driver'],
-            'host'      => $_ENV['radius_db_host'],
-            'database'  => $_ENV['radius_db_database'],
-            'username'  => $_ENV['radius_db_user'],
-            'password'  => $_ENV['radius_db_password'],
-            'charset'   => $_ENV['db_charset'],
-            'collation' => $_ENV['db_collation']
         ];
     }
 
@@ -164,18 +147,6 @@ class Config
                 return $list;
             case 'allow_none_protocol':
                 $list = array(
-                    'auth_chain_a',
-                    'auth_chain_b',
-                    'auth_chain_c',
-                    'auth_chain_d',
-                    'auth_chain_e',
-                    'auth_chain_f'
-                );
-                return $list;
-            case 'relay_able_protocol':
-                $list = array(
-                    'auth_aes128_md5',
-                    'auth_aes128_sha1',
                     'auth_chain_a',
                     'auth_chain_b',
                     'auth_chain_c',

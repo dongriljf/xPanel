@@ -7,8 +7,6 @@ use App\Services\{
     Auth,
     View
 };
-use Slim\Http\Response;
-use Psr\Http\Message\ResponseInterface;
 use Smarty;
 
 /**
@@ -42,20 +40,9 @@ class BaseController
      */
     public function view()
     {
+        if (View::$connection) {
+            $this->view->assign('queryLog', View::$connection->connection('default')->getQueryLog())->assign('optTime', microtime(true) - View::$beginTime * 1000);
+        }
         return $this->view;
-    }
-
-    // TODO: remove
-    /**
-     * Output JSON
-     *
-     * @param Response      $response
-     * @param array|object  $resource
-     *
-     * @return ResponseInterface
-     */
-    public function echoJson(Response $response, $resource)
-    {
-        return $response->withJson($resource);
     }
 }

@@ -10,9 +10,6 @@
     <title>{$config['appName']}</title>
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
-    {if $config['appName'] == '跑路'}
-        <script>window.location.href = '{$config['baseUrl']}/paolu.html';</script>
-    {/if}
     <link rel="shortcut icon" href="/favicon.ico"/>
     <link rel="bookmark" href="/favicon.ico"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
@@ -20,8 +17,6 @@
     <noscript>
         <link rel="stylesheet" href="/assets/css/noscript.css"/>
     </noscript>
-    <link href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" rel="stylesheet"/>
-    <script src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
 </head>
 
 <body>
@@ -69,11 +64,6 @@
             <div class="content">
                 <div class="inner">
                     <h1>{$config['appName']}</h1>
-                    <!--
-                    如果想自定义文本请删除下面这段script代码,格式为
-                    <p>自定义文本</p>
-                    -->
-                    {$config['old_index_DESC']}
                 </div>
             </div>
             <nav>
@@ -146,7 +136,7 @@
 <!-- BG -->
 <div id="bg"></div>
 <!-- Scripts -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@1.11.3"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0"></script>
 <script src="https://cdn.jsdelivr.net/gh/ajlkn/skel@3.0.1/dist/skel.min.js"></script>
 <script src="/assets/js/util.js"></script>
 <script src="/assets/js/main.js"></script>
@@ -158,26 +148,6 @@
         }
     } catch (e) {
     }
-</script>
-<!-- 進度條 -->
-<script>
-    {literal}
-    $(function () {
-        $(window).load(function () {
-            NProgress.done();
-        });
-        NProgress.set(0.0);
-        NProgress.configure({showSpinner: false});
-        NProgress.configure({minimum: 0.4});
-        NProgress.configure({easing: 'ease', speed: 1200});
-        NProgress.configure({trickleSpeed: 200});
-        NProgress.configure({trickleRate: 0.2, trickleSpeed: 1200});
-        NProgress.inc();
-        $(window).ready(function () {
-            NProgress.start();
-        });
-    });
-    {/literal}
 </script>
 
 </body>
