@@ -161,6 +161,7 @@ xPanel 离不开所有 [贡献代码](https://github.com/xray-v2ray-ss/xPanel/gr
 #### xray-v2ray-ss
 
 - xray-v2ray-ss 创建xPanel，增加支持vless/xtls支持。
+- [机场主比买的服务器](https://nbhosts.com/aff.php?aff=151)
 
 #### Anankke
 
