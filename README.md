@@ -24,7 +24,11 @@ xPanel 是一款专为 Xray / Vless / xtls / V2Ray / vmess / Trojan / Shadowsock
 支持xtls、vless的免费开源后端推荐：[Air-Universe](https://github.com/crossfw/Air-Universe/) 、[XrayR](https://github.com/XrayR-project/XrayR)
 
 ## 给sspanel增加增加 Vless / xtls 支持
-请点此链接：[给sspanel增加 Vless / xtls 支持](https://github.com/xray-v2ray-ss/xPanel/commit/d874b56c758c931bc68f5867117c0f4c79e50ae2) ，查看此提交的代码变更记录，根据此记录修改你的sspanl即可。
+查看下面提交的代码变更记录，根据此记录修改你的sspanl即可。
+请点此链接：
+[给sspanel增加 Vless / xtls 支持1](https://github.com/xray-v2ray-ss/xPanel/commit/d874b56c758c931bc68f5867117c0f4c79e50ae2) 
+或
+[给sspanel增加 Vless / xtls 支持2](https://github.com/xray-v2ray-ss/xPanel/commit/04afae4de5858f96deed3f49b8a401d7c111d97e)
 
 ## 特性
 
