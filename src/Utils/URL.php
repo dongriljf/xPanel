@@ -339,7 +339,7 @@ class URL
         }
         $items = URL::getNew_AllItems($user, $Rule);
         foreach ($items as $item) {
-            if ($item['type'] == 'vmess') {
+            if ($item['type'] == 'vmess' || $item['type'] == 'vless') {
                 $out = LinkController::getListItem($item, 'v2rayn');
             } else {
                 $out = LinkController::getListItem($item, $Rule['type']);
