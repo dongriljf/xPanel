@@ -27,9 +27,9 @@ xPanel 是一款专为 Xray / Vless / xtls / V2Ray / vmess / Trojan / Shadowsock
 查看下面提交的代码变更记录，根据此记录修改你的sspanl即可。
 请点此链接：
 
-dev分支老版本：[给sspanel增加 Vless / xtls 支持](https://github.com/xray-v2ray-ss/xPanel/commit/d874b56c758c931bc68f5867117c0f4c79e50ae2) 
+dev分支老版本：[给sspanel增加 Vless / xtls 支持](https://github.com/dongriljf/xPanel/commit/d874b56c758c931bc68f5867117c0f4c79e50ae2) 
 
-dev分支新版本：给sspanel增加 Vless / xtls 支持：[1](https://github.com/xray-v2ray-ss/xPanel/commit/04afae4de5858f96deed3f49b8a401d7c111d97e) 和[2](https://github.com/xray-v2ray-ss/xPanel/commit/0bc8c02a1023731c462b106af79bb3e609990180)
+dev分支新版本：给sspanel增加 Vless / xtls 支持：[1](https://github.com/dongriljf/xPanel/commit/04afae4de5858f96deed3f49b8a401d7c111d97e) 和[2](https://github.com/dongriljf/xPanel/commit/0bc8c02a1023731c462b106af79bb3e609990180)
 
 ## 特性
 
